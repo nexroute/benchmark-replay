@@ -1,0 +1,21 @@
+{
+  "name": "@nexroute/benchmark-replay",
+  "version": "1.0.0",
+  "description": "Replay nexroute benchmark test cases to reproduce and compare performance results.",
+  "scripts": {
+    "replay": "npx hardhat test lib/replay.js",
+    "trace": "npx hardhat test lib/replay.js --trace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexroute/benchmark-replay.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "3.0.9",
+    "@nomicfoundation/hardhat-network-helpers": "1.0.12",
+    "@openzeppelin/contracts": "^5.4.0",
+    "hardhat": "2.26.2",
+    "hardhat-tracer": "3.2.1"
+  }
+}
